@@ -1,0 +1,43 @@
+/* Header */
+
+#header-nav {
+  background-color: #DDD;
+  border-radius: 0;
+  border: 0;
+
+}
+
+@media (max-width:767px) {
+
+#navbar-collapse-1 {
+  background: lightgreen;
+  padding: 0;
+  border: 0;
+  }
+
+ul.navbar-nav {
+  margin: 0;
+  width: 100%;
+}
+
+ul.navbar-nav < li {
+	border: 0.5px solid black;
+	font-size: 1.2em;
+}
+
+}
+/* End of Header */
+
+/* Body */
+
+#main-text {
+  background-color: #DDD;
+  padding: 0 10px 10px 10px;
+}
+
+#main-text h2 {
+  font-size: 1.2em;
+  text-align: center;
+}
+
+/* End of Body */
