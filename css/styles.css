@@ -1,3 +1,5 @@
+* { box-sizing: border-box; }
+
 /* Header */
 
 #header-nav {
@@ -30,9 +32,15 @@ ul.navbar-nav < li {
 
 /* Body */
 
-#main-text {
+.main-div {
   background-color: #DDD;
-  padding: 0 10px 10px 10px;
+  padding: 10px;
+  align-content: center;
+}
+
+#main-text {
+  padding: 0;
+  margin: 0;
 }
 
 #main-text h2 {
